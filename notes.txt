@@ -1,0 +1,27 @@
+
+- Install NestJS cli:
+
+> npm install -g @nestjs/cli
+// Installing NestJS cli globally
+
+- check nest js installation via version checking
+> nest --version
+
+- create new nest project
+> nest new <project_name>
+> nest new my-first-app
+
+- go to app dir
+> cd my-first-app
+
+- open vs code in app dir
+> code .
+
+- start app
+> npm run start
+// By default app will run on server at port 3000
+// the app will by default print "Hello World!"
+
+- start app in watch mode
+> npm run start:dev
+// By default app will run on server at port 3000
